@@ -20,3 +20,4 @@ query_2 = sdk.run_query(query_id=query_id_2, result_format='sql')
 file = open("query.sql", "w")
 file.write(query_2)
 file.close()
+#
