@@ -6,7 +6,7 @@ from looker_sdk import methods40, models40
 sdk = looker_sdk.init40() 
 me = sdk.me()
 
-response = sdk.query_for_slug(slug="nbAhUcfmfJD83VfUXNvWOb")
+response = sdk.query_for_slug(slug="TAxfo8rwxqrgocSLlLmFrl")
 table1 =response['id']
 query = sdk.run_query(query_id=table1, result_format='csv')
 file = open("result.csv", "w")
