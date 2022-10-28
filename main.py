@@ -54,7 +54,7 @@ def create_sql_model(df):
     
     return query_2
 
-dashboard1= dashboard = df["Dashboard Title"].iloc[0].lower().replace(' ', '_').replace('.','').replace("'",'')
+dashboard1 = df["Dashboard Title"].iloc[0].lower().replace(' ', '_').replace('.','').replace("'",'')
 query2=create_sql_model(df)
 
 # Checking to make sure the function has returned SQL
